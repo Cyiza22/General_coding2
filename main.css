@@ -1,10 +1,10 @@
 *{
-    background-color: white;
+    background-color: rgb(222, 39, 45);
 }
 body{
     display: flex;
 }
-nav{
+body nav a{
     background-color: black;
     display: flex;
     justify-content: space-around;
