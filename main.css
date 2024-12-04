@@ -13,11 +13,19 @@ nav{
 nav h3{
     color: white;
     font-size: large;
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-size: 18px;
 }
-body .body{
+.body{
     display: grid;
     grid-template-columns: 35% 75%;
     gap: 10px;
+}
+.body .sidebar .profile{
+    display: flex;
+    flex-direction: row;
+
+}
+.body .sidebar .profile img{
+    border-radius: 50%;
 }
