@@ -13,7 +13,8 @@ nav{
     padding: 15px;
 }
 .sidebar{
-    
+    position: fixed;
+
 }
 .profile{
     display: flex;
@@ -21,6 +22,9 @@ nav{
     padding: 20px;
     border-bottom: 2px solid rgb(225, 221, 221);
 
+}
+.profile span{
+    font-weight: 300;
 }
 .profile .message{
     padding-left: 23px;
@@ -33,4 +37,16 @@ nav{
 }
 .profile img{
     border-radius: 50%;
+}
+.dash-part{
+    padding: 10px;
+    margin:10px ;
+}
+   
+.dash-part li, i{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 18px;
 }
