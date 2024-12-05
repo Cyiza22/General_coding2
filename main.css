@@ -6,6 +6,11 @@
     font-weight: 300;
     
 }
+#main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 10px;
+}
 nav{
     background-color: black;
     text-align: end;
@@ -49,4 +54,30 @@ nav{
     text-decoration: none;
     padding-top: 20px;
     font-size: 18px;
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+
+}
+#one{
+    background-color: brown;
+}
+#one{
+    background-color: brown;
+}
+#one{
+    background-color: brown;
+}
+#one{
+    background-color: brown;
+}
+.boxes{
+    display:flex;
+    justify-content: space-between;
+    width: 24%;
+    gap: 10px;
+
 }
