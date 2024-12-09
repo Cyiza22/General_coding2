@@ -2,23 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: roboto;
-    font-weight: 300;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
     
 }
-#main{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    column-gap: 10px;
+body{
+    width: 100%;
 }
 nav{
     background-color: black;
     text-align: end;
     color: white;
     padding: 15px;
+    width: 100%;
 }
+
+#main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 20px;
+}
+
 .sidebar{
-    position: fixed;
+    width: 100%
 
 }
 .profile{
@@ -27,57 +34,85 @@ nav{
     padding: 20px;
     border-bottom: 2px solid rgb(225, 221, 221);
 
-}
+} */
 .profile span{
     font-weight: 300;
-}
+} 
 .profile .message{
     padding-left: 23px;
 }
 .profile ul{
     display: flex;
     justify-content: space-between;
-    list-style: none;
     padding-left: 15px;
 }
 .profile img{
     border-radius: 50%;
 }
 .dash-part{
-    padding: 10px;
-    margin:10px ;
+    padding: 10px 0;
+    margin:10px 0 ;
+}
+.dash-part h3{
+    padding:15px 20px;
+    font-weight: 300;
 }
    
 .dash-part li, i{
     color: black;
     list-style: none;
     text-decoration: none;
-    padding-top: 20px;
+    padding: 10px;
     font-size: 18px;
+}
+.dash-part ul li:first-child{
+    color:aliceblue;
+    background-color: #2196F3;
+    
 }
 .dashboard{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px;
+    margin: 10px auto;
 
-}
-#one{
-    background-color: brown;
-}
-#one{
-    background-color: brown;
-}
-#one{
-    background-color: brown;
-}
-#one{
-    background-color: brown;
 }
 .boxes{
     display:flex;
+    flex-direction: row;
     justify-content: space-between;
-    width: 24%;
-    gap: 10px;
+    width: 100%;
+    gap: 5px;
 
+} 
+#one{
+    background-color: #f44336;
+    width: 23%;
+    height: 140px;
+} 
+#two{
+    background-color: #2196F3;
+    width: 23%;
+    height: 140px;
 }
+#three{
+    background-color: #009688;
+    width: 23%;
+    height: 140px;
+}
+#four{
+    background-color: #ff9800;
+    width: 23%;
+    height: 140px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+}
+.contents .emoji{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      
+}  
+
